@@ -20,4 +20,4 @@ int main()
     }
     
     return 0;
-}
+} // estou aprendendo C, no caso hoje esta sendo scanf, if, else, else if, operadores relacionais e logicos.
