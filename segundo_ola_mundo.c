@@ -229,3 +229,75 @@
 //     }
 // } // aprendendo estrutura condicional switch case break e default com um jogo de adivinhação.
 
+#include <stdio.h>
+
+// int main(void) {
+//     int idade;
+//     if (scanf("%d", &idade) != 1) return 0;
+
+//     printf("%s\n", (idade >= 18) ? "Maior de idade" : "Menor de idade");
+//     return 0;
+// }
+    // aprendendo operador condicional ternario ? :
+
+//     #include <stdio.h>
+
+// static void limpar_linha(void) {
+//     int ch;
+//     while ((ch = getchar()) != '\n' && ch != EOF) {}
+// }
+
+// int main(void) {
+//     int opcao;
+
+//     while (1) {
+//         double nota1, nota2, media;
+
+//         printf("\nMenu de Gerenciamento de Estudantes\n");
+//         printf("1. Calcular Media\n");
+//         printf("2. Determinar Status\n");
+//         printf("3. Sair\n");
+//         printf("Escolha uma opcao: ");
+
+//         if (scanf("%d", &opcao) != 1) {
+//             limpar_linha();
+//             printf("Entrada invalida. Digite um numero.\n");
+//             continue;
+//         }
+
+//         switch (opcao) {
+//             case 1:
+//                 printf("Digite a primeira nota: ");
+//                 if (scanf("%lf", &nota1) != 1) { limpar_linha(); printf("Entrada invalida.\n"); break; }
+
+//                 printf("Digite a segunda nota: ");
+//                 if (scanf("%lf", &nota2) != 1) { limpar_linha(); printf("Entrada invalida.\n"); break; }
+
+//                 media = (nota1 + nota2) / 2.0;
+//                 printf("A media do estudante e: %.2f\n", media);
+//                 break;
+
+//             case 2: {
+//                 printf("Digite a media do estudante: ");
+//                 if (scanf("%lf", &media) != 1) { limpar_linha(); printf("Entrada invalida.\n"); break; }
+
+//                 const char *status =
+//                     (media >= 7.0) ? "Aprovado" :
+//                     (media >= 5.0) ? "Recuperacao" :
+//                                      "Reprovado";
+
+//                 printf("Status: %s\n", status);
+//                 break;
+//             }
+
+//             case 3:
+//                 printf("Saindo...\n");
+//                 return 0;
+
+//             default:
+//                 printf("Opcao invalida. Tente novamente.\n");
+//                 break;
+//         }
+//     }
+// }
+   // aprendendo operador condicional ternario ? : com um menu de gerenciamento de estudantes.
