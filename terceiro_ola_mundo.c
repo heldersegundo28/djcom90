@@ -192,3 +192,15 @@
 //     return 0;
 // }  // aprendendo a fazer uma tabuada com loops aninhados
 
+// #include <stdio.h>
+
+// int main(void) {
+//     for (int i = 1; i <= 10; i++) {          // loop externo (linhas)
+//         for (int j = 1; j <= 10; j++) {      // loop interno (colunas)
+//             printf("%d\t", i * j);
+//         }
+//         printf("\n");                        // quebra de linha
+//     }
+//     return 0;
+// }   // aprendendo a fazer uma tabuada com loops aninhados usando for
+
