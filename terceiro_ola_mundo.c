@@ -204,3 +204,41 @@
 //     return 0;
 // }   // aprendendo a fazer uma tabuada com loops aninhados usando for
 
+// #include <stdio.h>
+ 
+// int main() {
+//     for (int i = 0, j = 10; i < j; i++, j--) {
+//         printf("i = %d, j = %d\n", i, j);
+//     }
+//     return 0;
+// } // aprendendo a usar multiplas variaveis em um for
+
+// #include <stdio.h>
+ 
+// int main() {
+//     for (int i = 0; i < 100; i += (i % 2 == 0) ? 1 : 2) {
+//         printf("%d ", i);
+//     }
+//     return 0;
+// } // aprendendo a usar expressao condicional em um for
+
+// #include <stdio.h>
+
+// void recursiveLoop(int n) {
+//     if (n >= 0) {
+//         printf("%d ", n);
+//         recursiveLoop(n - 1);
+//     }
+// }
+
+// int main(void) {
+//     int numero = 5;
+
+//     printf("Contagem regressiva: ");
+//     recursiveLoop(numero);
+//     putchar('\n');
+
+//     return 0;
+// }
+// aprendendo a fazer um loop usando recursao
+
