@@ -62,8 +62,7 @@
 //}
 // Este programa é um jogo simples de batalha naval, onde o jogador tenta acertar a posição de um navio em um tabuleiro 5x5. O navio está fixo na posição (2, 3). O jogador insere as coordenadas para tentar acertar o navio, e o programa indica se foi um acerto ou um erro, atualizando o tabuleiro a cada jogada. O jogo continua até que o navio seja acertado.
 
-// Programa em C que lê 5 notas, armazena em um vetor e em uma matriz,
-// calcula a soma e a média, e exibe a matriz e a média.
+// Programa em C que exibe os valores de uma matriz 2x3.
 #include <stdio.h>
 int main () {
 int m[2][3] = {

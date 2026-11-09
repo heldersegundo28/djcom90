@@ -1,0 +1,23 @@
+name: Programas em C
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compilar programas ativos
+        run: |
+          mkdir -p build
+          for programa in super_trunfo chess quarto_ola_mundo; do
+            gcc -std=c11 -Wall -Wextra "${programa}.c" -o "build/${programa}"
+          done
+      - name: Verificar matriz e comandos de xadrez
+        run: |
+          ./build/quarto_ola_mundo > build/matriz.txt
+          printf '1 2 3 \n4 5 6 \n' > build/esperado.txt
+          diff -u build/esperado.txt build/matriz.txt
+          printf 'quit\n' | ./build/chess > build/chess.txt
+          grep -q 'Fim.' build/chess.txt
+          printf '0\n' | ./build/super_trunfo > build/trunfo.txt
