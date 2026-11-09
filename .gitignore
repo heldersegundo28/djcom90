@@ -1,0 +1,13 @@
+# Executáveis e objetos gerados localmente
+/chess
+/super_trunfo
+/primeiro_ola_mundo
+/segundo_ola_mundo
+/terceiro_ola_mundo
+/quarto_ola_mundo
+/teste
+*.exe
+*.o
+/build/
+.DS_Store
+Thumbs.db

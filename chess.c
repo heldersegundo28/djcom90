@@ -1,5 +1,5 @@
-// chess_moves.c - valida movimentos básicos de xadrez (sem roque/en passant/promoção/xeque)
-// Compilar: gcc -std=c11 -Wall -Wextra -Wpedantic chess_moves.c -o chess_moves
+// chess.c - valida movimentos básicos de xadrez (sem roque/en passant/promoção/xeque)
+// Compilar: gcc -std=c11 -Wall -Wextra chess.c -o chess
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -281,3 +281,4 @@ int main(void) {
     puts("Fim.");
     return 0;
 } // chess_moves.c
+
